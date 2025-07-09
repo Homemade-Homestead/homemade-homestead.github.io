@@ -1,89 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Homemade Homestead</title>
   <style>
     body {
-      font-family: sans-serif;
+      font-family: Georgia, serif;
       margin: 0;
       padding: 0;
-      background-color: #faf7f2;
-      color: #2e2e2e;
+      background-color: #f8f5f0;
+      color: #333;
+      text-align: center;
     }
+
     header {
-      background-color: #7c5e3c;
-      color: white;
-      padding: 2rem;
-      text-align: center;
+      background-color: #806b50;
+      color: #fff;
+      padding: 2rem 1rem;
     }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.25rem;
+      font-style: italic;
+    }
+
     nav {
-      text-align: center;
-      margin-top: 1rem;
+      background-color: #e7dfd4;
+      padding: 1rem;
     }
+
     nav a {
       margin: 0 1rem;
+      color: #5a4a3c;
       text-decoration: none;
-      color: #7c5e3c;
       font-weight: bold;
     }
-    section {
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .image-container {
       padding: 2rem;
-      max-width: 800px;
-      margin: auto;
     }
+
+    .image-container img {
+      max-width: 90%;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
     footer {
-      text-align: center;
+      background-color: #e7dfd4;
+      color: #5a4a3c;
       padding: 1rem;
-      background-color: #eee;
-      font-size: 0.9rem;
-    }
-    .social-links a {
-      margin: 0 0.5rem;
-      color: #2e2e2e;
+      font-size: 0.875rem;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Homemade Homestead</h1>
-    <p>Veteran-owned farm stand with produce, eggs, jam, baked goods, and soaps.</p>
+    <h1>Welcome to Homemade Homestead</h1>
+    <p>From Our Homestead to Your Home</p>
   </header>
-  
+
   <nav>
-    <a href="#about">About</a>
-    <a href="#products">What We Offer</a>
-    <a href="#contact">Contact</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
   </nav>
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Welcome to Homemade Homestead! We are a veteran-owned farm stand offering produce, eggs, jam, baked goods, and soaps. We love to share our passion of farming with the community and we donate a portion of our products and produce to the local food pantry.</p>
-  </section>
-
-  <section id="products">
-    <h2>What We Offer</h2>
-    <ul>
-      <li>Fresh produce (seasonal)</li>
-      <li>Farm-fresh eggs</li>
-      <li>Homemade jams</li>
-      <li>Baked goods (rotating selection)</li>
-      <li>Handcrafted soaps</li>
-    </ul>
-  </section>
-
-  <section id="contact">
-    <h2>Contact & Social</h2>
-    <p>Email: <a href="mailto:homemade.homestead.llc@gmail.com">homemade.homestead.llc@gmail.com</a></p>
-    <div class="social-links">
-      <a href="https://www.facebook.com/people/Homemade-Homestead-LLC/61558984337549/" target="_blank">Facebook</a> |
-      <a href="https://www.instagram.com/homemade_homestead_llc/" target="_blank">Instagram</a>
-    </div>
-  </section>
+  <div class="image-container">
+    <img src="farmstand.jpg" alt="Homemade Homestead Farmstand" />
+  </div>
 
   <footer>
-    &copy; 2025 Homemade Homestead | HomemadeHomestead.github.io
+    &copy; 2025 Homemade Homestead. All rights reserved.
   </footer>
 </body>
 </html>
