@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Events Calendar – Homemade Homestead</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f8f5f0;
+      color: #333;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    header {
+      background-color: #806b50;
+      color: white;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav {
+      background-color: #e7dfd4;
+      padding: 1rem;
+    }
+
+    nav a {
+      margin: 0 1rem;
+      color: #5a4a3c;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .calendar {
+      max-width: 800px;
+      margin: 2rem auto;
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 1px;
+      background-color: #ddd;
+    }
+
+    .calendar div {
+      background-color: #fff;
+      padding: 1.5rem 0;
+      min-height: 80px;
+    }
+
+    .calendar .day-name {
+      background-color: #e7dfd4;
+      font-weight: bold;
+    }
+
+    .calendar .empty {
+      background-color: transparent;
+    }
+
+    .calendar a {
+      display: block;
+      color: #5a4a3c;
+      text-decoration: none;
+    }
+
+    .calendar a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #e7dfd4;
+      color: #5a4a3c;
+      padding: 1rem;
+      font-size: 0.875rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Events Calendar – July 2025</h1>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <div class="calendar">
+    <!-- Day Names -->
+    <div class="day-name">Sun</div>
+    <div class="day-name">Mon</div>
+    <div class="day-name">Tue</div>
+    <div class="day-name">Wed</div>
+    <div class="day-name">Thu</div>
+    <div class="day-name">Fri</div>
+    <div class="day-name">Sat</div>
+
+    <!-- Empty slots for July 1 starting Tuesday -->
+    <div class="empty"></div>
+    <div class="empty"></div>
+
+    <!-- Week 1 -->
+    <div>1</div>
+    <div>2</div>
+    <div>3</div>
+    <div>4</div>
+    <div>5</div>
+
+    <!-- Week 2 -->
+    <div>6</div>
+    <div>7</div>
+    <div>8</div>
+    <div>9</div>
+    <div>10</div>
+    <div>11</div>
+    <div><a href="https://www.facebook.com/events/1047137893805313/" target="_blank">12</a></div>
+
+    <!-- Week 3 -->
+    <div>13</div>
+    <div>14</div>
+    <div>15</div>
+    <div>16</div>
+    <div>17</div>
+    <div>18</div>
+    <div>19</div>
+
+    <!-- Week 4 -->
+    <div>20</div>
+    <div>21</div>
+    <div>22</div>
+    <div>23</div>
+    <div>24</div>
+    <div>25</div>
+    <div>26</div>
+
+    <!-- Week 5 -->
+    <div>27</div>
+    <div>28</div>
+    <div>29</div>
+    <div>30</div>
+    <div>31</div>
+    <!-- Extra empty to finish the grid -->
+    <div class="empty"></div>
+    <div class="empty"></div>
+  </div>
+
+  <footer>
+    &copy; 2025 Homemade Homestead. All rights reserved.
+  </footer>
+</body>
+</html>
